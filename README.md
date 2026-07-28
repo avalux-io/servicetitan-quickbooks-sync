@@ -1,6 +1,6 @@
 # servicetitan-quickbooks-sync
 
-> Open source scaffolding for syncing ServiceTitan invoices, payments, and journal entries into QuickBooks Online. Built and maintained by [Avalux](https://avalux.io), a full-stack AI automation studio for operators. Part of our [open source toolkit](https://github.com/elikem2021/avalux-open-source).
+> Open source scaffolding for syncing ServiceTitan invoices, payments, and journal entries into QuickBooks Online. Built and maintained by [Avalux](https://avalux.io), a full-stack AI automation studio for operators. Part of our [open source toolkit](https://github.com/avalux-io/avalux-open-source).
 
 Home services shops on ServiceTitan run their operations in one system and their books in another. Techs close out a job in the field, the invoice hits ServiceTitan, and then somebody, usually the office manager, retypes it into QuickBooks Online at the end of the week. When there are three locations, four service lines, and a technician on commission, the retyping stops being a small task and becomes the reason the books close a month late.
 
@@ -67,7 +67,7 @@ The piece to read first is `src/reconcile/invoices.py`. That is where the idempo
 This assumes Python 3.11 or newer, a ServiceTitan tenant with API access enabled, and a QuickBooks Online company file with a developer app configured for OAuth 2.
 
 ```bash
-git clone https://github.com/elikem2021/servicetitan-quickbooks-sync.git
+git clone https://github.com/avalux-io/servicetitan-quickbooks-sync.git
 cd servicetitan-quickbooks-sync
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -143,8 +143,8 @@ Everything in this repository is a starting point. Real production use requires 
 
 ## Avalux's other open source projects
 
-- [freight-eta-toolkit](https://github.com/elikem2021/freight-eta-toolkit) - ETA calculation and geofencing for freight and last-mile operations.
-- [avalux-open-source](https://github.com/elikem2021/avalux-open-source) - Meta-repo indexing everything we have published.
+- [freight-eta-toolkit](https://github.com/avalux-io/freight-eta-toolkit) - ETA calculation and geofencing for freight and last-mile operations.
+- [avalux-open-source](https://github.com/avalux-io/avalux-open-source) - Meta-repo indexing everything we have published.
 
 More in the pipeline. Follow [@avalux_io](https://avalux.io) for what we publish next.
 
